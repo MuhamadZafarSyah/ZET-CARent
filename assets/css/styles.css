@@ -646,8 +646,6 @@ img {
 }
 .featured__card {
   position: relative;
-  background-color: var(--container-color);
-  padding: 2rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
 .featured__card .shape__smaller {
@@ -769,7 +767,7 @@ img {
   transition: 0.3s;
 }
 .logos__container {
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(4, max-content);
   justify-content: center;
   align-items: center;
   gap: 4rem;
